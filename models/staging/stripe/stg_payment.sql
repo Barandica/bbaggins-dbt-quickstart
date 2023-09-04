@@ -1,6 +1,6 @@
 select
     id AS payment_id,
-    orderid,
+    orderid AS order_id,
     paymentmethod,
     status,
     amount,
